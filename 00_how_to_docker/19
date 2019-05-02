@@ -1,0 +1,1 @@
+docker run -it --name Abathur -v /Users/mdichkou:/root -w /root -p 3000:3000 python:2-slim /bin/sh -c "apt-get update && pip install Flask && python hello_world.py"
